@@ -11,8 +11,8 @@ public class BookingPageMain extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(BookingPageMain.class.getResource("booking-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Booking Service");
         stage.setScene(scene);
         stage.show();
     }
